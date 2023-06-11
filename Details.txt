@@ -1,0 +1,138 @@
+Points todo while in Session:
+  1. Unmute is working and Chat box working
+  2. During session if You have any doubts
+      1. Unmute and ask the doutbs
+      2. Put the doubts in the chat
+      3. Raise hand
+  
+  3. Whenever You have doubts reagarding the technical topics aspects
+     Please do clarify in the session
+    
+    ** Do not feel shy for asking Questions/Doubts **
+  
+  4. Notes:
+    Somthing important concepts/Things discussed, Please note it down
+
+  5. When questions are asked, Please try to answer either by,
+      1. unmute speak
+      2. put it in the chat-box
+  
+  6. Please try to join with Laptop and very Good Internet Connection
+
+
+Installations:
+  Write Code and Develop
+    VSCode --> https://code.visualstudio.com/download
+
+  Scource Control Management: ( Storing Different Version of Codebase)
+    Git Tool Installation --> https://git-scm.com/downloads
+  
+  Chrome Browser
+
+
+VsCode:
+  Going to start working on something,
+
+    1. Classify the work with a new folder
+    2. Open the folder from a fresh VsCode Window
+    3. Start working
+
+  Note: Working on a old task/project just open the existing folder 
+
+
+Git & Github:
+
+  Source Control Management:
+
+    Your Travelling for Four Day Tour:
+      Dress, Money, Tickets, Id proofs
+
+    You: Tool that can carry the essential for a particular day/time
+      one Dress, 
+      some amount of money, 
+      tickets/ids needed for the day
+
+      Disadvantage:
+        1. Hassle
+        2. May loose somethings
+    
+    Suitcase: Storage to hold all the things for the travel
+      All the dresses
+      All the money
+      All the tickets and ids 
+    
+      Advantage: 
+        1. everything 
+        2. Management is easy
+
+    SCM Architecture:
+
+                      repository
+                          |
+              ------------------------------
+              |        Push/Pull           |
+            Local         <->            Remote
+      Desktop Development          (Storage serving the version control)
+
+
+Git -> Tool for controlling the version
+
+  Creating a new repository:
+
+    1. CMD Line
+      Create/Intialize a Repository - git init
+
+      Status -> git status
+
+      Adding/Staging Files to the Repo: 
+        git add <files/file>
+        Single File:
+          git add <file-name>
+
+        Add All files:
+          git add .
+      
+      Removing Staged Files:
+        git rm --cached <file-name>
+
+        git rm -r --cached .
+
+      Commit: timebased version of Your development
+        whatever the staged files You can put it into the git commit
+
+        git commit -m "all files are added"
+      
+
+    2. VsCode
+      Create/Intialize a Repository - Click on Source Control & Initialize
+      Adding files add symbol
+      Removing files minus symbol
+      Commit by entering msg
+
+  Github -> Storage for all Your codebase, 
+            which uses Git for some actions and operations
+    Repository
+      - Storage for an application which stores all You codes
+  
+  Push / Pull:
+    Push:  Local Commits to Remote
+
+    Pull: Remote Commits to Local
+
+
+Next Session:
+  1. stashing
+  2. branching
+  3. going to a particular commit
+  4. Collabrative Development
+  5. Profile Information using Readme.md
+
+VScode Extensions:
+  Live Server - Ritwick Dey
+  vscode Icons - VsCode Icons Team
+  Sonarlint - Sonarsource
+  EsLint - Microsoft
+  HTML CSS Support - ecmel
+  HTML - Snippets - geyao
+  Bracket Pair Colorization Toggler - Dzhavat Ushev
+
