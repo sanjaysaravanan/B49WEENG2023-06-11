@@ -112,7 +112,7 @@ Git -> Tool for controlling the version
   Github -> Storage for all Your codebase, 
             which uses Git for some actions and operations
     Repository
-      - Storage for an application which stores all You codes
+      - Storage for an application that stores all Your codes
   
   Push / Pull:
     Push:  Local Commits to Remote
